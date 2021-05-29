@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainDiv{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.middleDiv{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+
+.label{
+    flex: 1;
+    margin: 5px;
+}
+
+.mainBtn{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 10px;
+}
+
+.mainBtn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.mainDelImg{
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+
+.mainEdiImg{
+    color: orange;
+    width: 30px;
+    height: 30px;
+}
+
+.mainBtn{
+    background-color: transparent;
+    border: none;
+}
+
+.mainBtn:hover{
+    cursor: pointer;
+}
+
+.mainTD{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (min-width: 400px) {
+    .hide{
+        display: table-cell;
+    }    
+}

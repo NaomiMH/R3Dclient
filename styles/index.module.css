@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.mainH{
+    padding: 5px;
+    border-bottom: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.middleH2{
+    padding: 10px;
+    color: black;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.middleH2:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (min-width: 400px) {
+    .hide{
+        display: table-cell;
+    }    
+}
