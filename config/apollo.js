@@ -5,7 +5,7 @@ import { setContext } from 'apollo-link-context';
 const httpLink = createHttpLink({
     uri: 'https://mysterious-escarpment-62991.herokuapp.com/',
     fetch
-})
+});
 
 const authLink = setContext((_,{ headers }) => {
     //Obtener el token
