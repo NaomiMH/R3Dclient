@@ -25,6 +25,11 @@ export default function Home() {
   const { data,loading,client } = useQuery(GET_CLIENTS);
   if (loading) return "";
 
+  if (!data) {
+    client.clearStore();
+    router.push('/login');
+    return '';
+  }
   if (!data.getClientsofSeller) {
     client.clearStore();
     router.push('/login');
