@@ -68,6 +68,10 @@ const Login = () => {
         <Layout>
             <main className={styles.main}>
                 <div className={styles.mainDiv}>
+                    <div className={styles.extraDiv}>
+                        <p>No tienes cuenta?</p>
+                        <input type="button" className={styles.extraBtn} value="Sign in" onClick={() => router.push('/signin')} />
+                    </div>
                     <form className={styles.mainForm} onSubmit={formik.handleSubmit}>
                         { message && showMessage() }
                         <div className={styles.middleDiv}>
